@@ -29,17 +29,17 @@ import Themgiaovien from './views/Admin/QuanLyNguoiDung/GiaoVien/CreateTeacher';
 // thông kê
 import Fillter from './views/Admin/ThongKe/Start';
 
-import DisplayUser from './views/Admin/QuanLyNguoiDung/DisplayUser';
-import OverlayTeacher from './views/Admin/QuanLyNguoiDung/OverlayTeacher';
-import ExamStudent from './views/Admin/QuanLyNguoiDung/ExamStudent';
-import DisplayStudent from './views/Admin/QuanLyNguoiDung/QuanLyStudent/DisplayStudent';
+// import DisplayUser from './views/Admin/QuanLyNguoiDung/DisplayUser';
+// import OverlayTeacher from './views/Admin/QuanLyNguoiDung/OverlayTeacher';
+// import ExamStudent from './views/Admin/QuanLyNguoiDung/ExamStudent';
+// import DisplayStudent from './views/Admin/QuanLyNguoiDung/QuanLyStudent/DisplayStudent';
 
-import Display from './views/Admin/QuanLyNguoiDung/DisplayUser';
-import Overlay from './views/Admin/QuanLyNguoiDung/OverlayTeacher';
+// import Display from './views/Admin/QuanLyNguoiDung/DisplayUser';
+// import Overlay from './views/Admin/QuanLyNguoiDung/OverlayTeacher';
 // import ExamStudent from './views/Admin/QuanLyNguoiDung/ExamStudent';
 // import DisplayStudent from './views/Admin/QuanLyNguoiDung/DisplayStudent';
 
-import DisplayStudentTeacher from './views/Admin/QuanLyNguoiDung/DisplayUserTeacher';
+// import DisplayStudentTeacher from './views/Admin/QuanLyNguoiDung/DisplayUserTeacher';
 import ExamStudent from './views/Admin/QuanLyNguoiDung/QuanLyDSSinhVien/ExamStudent';
 import DisplayTeacher from './views/Admin/QuanLyNguoiDung/QuanLyGiaoVien/DisplayTeacher';
 //Câu hỏi thi
@@ -81,7 +81,7 @@ function App() {
                     <Route exact path="/user-account" element={<DefaultLayout children={<DisplayAccount />} />} />
                     <Route exact path="/user-exam" element={<DefaultLayout children={<DisplayDoExam />} />} />
                     <Route exact path="/admin/hone" element={<DefaultLayout children={<Home />} />} />
-  {/* -------------------------- đồ thị   --------------------------*/}
+                    {/* -------------------------- đồ thị   --------------------------*/}
                     <Route exact path="/dothi" element={<DefaultLayout children={<Stat />} />} />
 
                     {/* -------------------------- Kỳ thi  --------------------------*/}
