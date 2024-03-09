@@ -1,0 +1,530 @@
+//CSS chia đôi màn hình
+.split__screen{
+    display: flex;
+    flex-direction: row;
+}
+.display__flex{
+    min-width: 300px;
+}
+//CSS overlay
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Màu nền tối */
+    z-index: 1;
+  }
+  .selectedImage {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+
+ 
+ 
+  
+  .addUserModal label{
+    display: flex;
+    margin-left: 10px;
+  }
+  //CSS lại cho nút đóng của cửa sổ details
+   .btn_details {
+    align-items: center;
+   }
+//CSS Cho nút sửa
+.listbtn-edit {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    /*Màunềnxanhlácây*/color: #fff;
+    /*Màuchữtrắng*/border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+}
+  
+  .listbtn-edit:hover {
+    background-color: #45a049; /* Màu nền xanh lá cây đậm khi hover */
+  }
+  //CSS edit
+  .editUserModal {
+    // position: fixed;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    // background: #fff;
+    // padding: 20px;
+    // border: 1px solid #ccc;
+    // box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    // z-index: 1000;
+    // max-width: 650px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    max-width: 650px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .editUserModal h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    
+  }
+  
+  .editUserModal label {
+    display: flex;
+    margin-left: 10px;
+    
+  }
+  
+  .editUserModal input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .editUserModal button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    margin: 10px;
+  }
+  
+  .editUserModal button:hover {
+    background-color: #45a049;
+  }
+  
+  .editUserModal button + button {
+    margin-left: 10px;
+  }
+  //CSS hiển thị chi tiết
+  .userDetailModal {
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-width: 400px;
+    width: 100%;
+    text-align: left;
+}
+
+.userDetailModal h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.userDetailModal p {
+    margin: 10px 0;
+}
+
+.userDetailModal button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.userDetailModal button:hover {
+    background-color: #0056b3;
+}
+
+//CSS cho button xóa
+.confirmDeleteModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  .listbtn-delete{
+    padding: 10px 15px;
+    background-color: #4caf50; /* Màu nền xanh lá cây */
+    color: #fff; /* Màu chữ trắng */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .listbtn-delete:hover {
+    background-color: #45a049; /* Màu nền xanh lá cây đậm khi hover */
+  }
+  .confirmDeleteModal h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .confirmDeleteModal p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .confirmDeleteModal button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .confirmDeleteModal button:last-child {
+    margin-right: 0;
+  }
+
+  //
+.addUserModal {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    max-width: 650px;
+    width: 100%;
+    text-align: center;
+}
+
+.addUserModal h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.addUserModal input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.addUserModal button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    margin: 10px;
+}
+.fileInput {
+    display: none; /* Ẩn input file mặc định */
+}
+
+.fileInputLabel {
+    cursor: pointer;
+    /* Thêm kiểu dáng cho label để tạo ra một nút tùy chỉnh */
+    /* ... */
+}
+.addUserModal button:hover {
+    background-color: #45a049;
+}
+
+/* ... (Phần CSS chung của bạn) ... */
+
+.Addfile {
+    margin: 20px 0 0 0;
+}
+.flexBox {
+    margin-top: -20px;
+}
+
+.sideBar {
+    height:40px ;
+    width: 100%;
+    background-color: rgba(204,204,204,0.7);
+
+}
+.topic{
+    display: flex;
+    align-items: center;
+}
+
+.btnTopic {
+    margin-left: 100px;
+    outline: none;
+    width: 150px;
+    margin-top: 4px;
+    border: none;
+    border: 1px solid #ccc;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    padding: 8px 12px;
+    text-align: center;
+    padding-bottom: 6px;
+    background-color: rgb(206, 222, 222);
+}
+
+
+.active {
+
+    outline: none;
+    border: none;
+    border: 1px solid #ccc;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 6px;
+    display: block;
+    background-color: rgb(235, 211, 181);
+}
+
+.container {
+  
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 12px;
+    margin-left: 100px;
+}
+.btnTool {
+    height: 30px;
+    border: none;
+    margin-right: 20px;
+    padding: 0 30px;
+    outline: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(161, 241, 241);
+    border-radius: 4px;
+    text-align: center;
+}
+.btnTool:hover {
+    background-color: rgba(161, 241, 241, 0.8);
+    cursor: pointer;
+}
+
+.borders {
+    border: 1px solid #ccc;
+    margin-top: 8px;
+}
+
+.quetion {
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.hoverchuot:hover{
+    cursor: pointer;
+}
+.lable {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inforText {
+    width: 89%;
+    margin-left: 10px;
+    padding: 8px 0;
+    border: 1px solid #ccc;
+    padding-left: 6px;
+    font-size: 14px;
+    color: #000;
+    outline: none;
+    border-radius: 4px;
+}
+.Answer {
+    margin-top: 8px;
+    margin-left: 12px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+.btnAnswer {
+    font-size: 14px;
+}
+.chooseAnswer {
+    font-size: 14px;
+    margin-left: 4px;
+    padding: 4px 6px;
+    border: 1px solid #ccc;
+    background-color: rgb(195, 230, 224);
+}
+.infor {
+    width: 90%;
+    margin-left: 10px;
+    padding: 8px 0;
+    border: 1px solid #ccc;
+    padding-left: 6px;
+    font-size: 14px;
+    color: #000;
+    outline: none;
+    border-radius: 4px;
+}
+
+.select {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 6px;
+}
+
+.AnswerLabel {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+.AnswerTrue {
+    font-size: 14px;
+    margin-left: 4px;
+    padding: 4px 6px;
+    border: 1px solid #ccc;
+    background-color: rgb(195, 230, 224);
+}
+.table {
+    margin-top: 12px;
+    background-color: #fff;
+    height: 65vh;
+    margin: 12px;
+    border-radius: 8px;
+    overflow-y: auto;
+}
+
+.item {
+    padding: 12px 40px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.items {
+    padding: 12px 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 20px;
+}
+.list {
+   
+    max-width: 160px;
+    text-align: center;
+}
+
+.lists {
+   
+    max-width: 80px;
+    text-align: center;
+}
+.center {
+    margin-left: 50px;
+}
+.lable {
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+.border-style {
+    border: 1px solid #000;
+    margin-top: 4px;
+    margin: 0 4px;
+}
+.listbtn {
+    height: 20px;
+    padding: 2px 18px;
+    text-align: center;
+    background-color: red;
+    border: none;
+    margin-right: 6px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+.inputName {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 30px;
+    margin-right: 200px;
+    padding: 0 20px;
+    outline-color: rgb(195, 230, 224);
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.Gender{
+    display: flex;
+    align-items: center;
+}
+.Female,
+.male{
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+
+
+}
+.inputtype{
+    font-size: 12px;
+    margin-right: 8px;
+    text-align: center;
+    margin-top: 12px;
+
+}
+.link{
+    text-decoration: none;
+}

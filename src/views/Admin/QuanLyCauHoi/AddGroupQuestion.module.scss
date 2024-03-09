@@ -1,0 +1,91 @@
+/* Createroomsubject.module.scss */
+
+.create-exam-form {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(110, 184, 211);
+    border-radius: 4px;
+}
+.headingName {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    padding-top: 12px;
+    text-align: center;
+}
+
+.exam-form {
+    margin-top: 12px;
+    padding: 12px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.label {
+    display: block;
+    width: 150px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.input {
+    width: 100%;
+    padding: 6px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.cathi {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+    p {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+}
+
+.btn-cancel,
+.btn-create {
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn {
+    background-color: #3498db; /* Màu xanh dương cho nút Xác nhận */
+    color: #fff;
+    border-radius: 4px;
+}
+
+.btn-cancel {
+    background-color: #e74c3c; /* Màu đỏ cho nút Hủy */
+    color: #fff;
+}
+.btn-cancel:hover {
+    background-color: #c0392b; /* Màu đỏ sáng khi hover */
+}
+
+.btn-create:hover {
+    background-color: #2980b9; /* Màu xanh dương sáng khi hover */
+}
+.exam-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

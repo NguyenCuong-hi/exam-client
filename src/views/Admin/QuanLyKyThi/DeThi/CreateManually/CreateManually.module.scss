@@ -1,0 +1,194 @@
+.navHeader {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+}
+.btnBack {
+    margin-left: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: rgb(150, 205, 237);
+    text-align: center;
+}
+.backIcon {
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 4px;
+}
+.backLable {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0 0 4px 0;
+}
+
+.nameSubject {
+    font-size: 18px;
+    margin-left: 60px;
+}
+
+.btnSearch {
+    margin-left: 70px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background-color: fff;
+    width: 300px;
+    border-radius: 4px;
+
+    display: flex;
+}
+.inputSearch {
+    outline: none;
+    border: none;
+    height: 28px;
+    flex: 1;
+    padding-left: 12px;
+    font-size: 14px;
+    color: #000;
+}
+.searchIcon {
+    font-size: 16px;
+    padding: 6px 12px 0 10px;
+    margin-right: 0;
+    cursor: pointer;
+    background-color: rgb(150, 205, 237);
+}
+
+.btnNumber {
+    margin-left: 70px;
+    display: flex;
+}
+.labelNum {
+    font-size: 14px;
+    margin-right: 4px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnSubmit {
+    margin-left: 90px;
+}
+.subLable {
+    margin-left: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    width: auto;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 4px;
+    background-color: rgb(150, 205, 237);
+    text-align: center;
+}
+.Border {
+    border: 1px solid #ccc;
+    margin-top: 4px;
+}
+
+.main {
+    max-height: 66vh;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+.Main-ex {
+    margin: 0 12px;
+    width: 80%;
+    margin-top: 10px;
+    background-color: rgb(231, 236, 235);
+    padding: 4px;
+    padding-top: 2px;
+    border-radius: 4px;
+    margin-left: 10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.quetion {
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.lable {
+    font-size: 10px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inforText {
+    width: 89%;
+    margin-left: 10px;
+    padding: 4px 0;
+    border: 1px solid #ccc;
+    padding-left: 6px;
+    font-size: 10px;
+    color: #000;
+    outline: none;
+    border-radius: 4px;
+}
+.Answer {
+    margin-top: 8px;
+    margin-left: 12px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+.btnAnswer {
+    font-size: 14px;
+}
+.chooseAnswer {
+    font-size: 10px;
+    margin-left: 4px;
+    padding: 2px 6px;
+    border: 1px solid #ccc;
+    background-color: rgb(195, 230, 224);
+}
+.infor {
+    width: 90%;
+    margin-left: 10px;
+    padding: 4px 0;
+    border: 1px solid #ccc;
+    padding-left: 6px;
+    font-size: 14px;
+    color: #000;
+    outline: none;
+    border-radius: 4px;
+}
+
+.select {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 6px;
+}
+
+.AnswerLabel {
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+.AnswerTrue {
+    font-size: 10px;
+    margin-left: 4px;
+    padding: 2px 6px;
+    border: 1px solid #ccc;
+    background-color: rgb(195, 230, 224);
+}

@@ -1,0 +1,227 @@
+.header {
+    width: 100vw;
+    height: 80px;
+    background-color: #77b4c3;
+}
+
+.logo {
+    position: relative;
+    margin-left: 12px;
+    padding-left: 2px;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.wrapper-header {
+    display: flex;
+}
+
+.navigation {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin: 16px 12px 0 20px;
+    height: 64px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.nav-item {
+    display: flex;
+    float: right;
+    justify-content: center;
+    margin-top: 20px;
+    list-style: none;
+    margin-right: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-item-list {
+    margin-right: 20px;
+
+    padding-right: 0;
+}
+
+.nav-item-link {
+    text-decoration: none;
+}
+
+.nav-noti-icon {
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+}
+
+.nav-user-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+//------------languages------------
+
+.language {
+    position: relative;
+}
+
+.languege-item {
+    position: absolute;
+    top: 130%;
+    left: -6px;
+    list-style: none;
+    display: none;
+    padding: 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    animation: fadein ease-in 0.3s;
+    background-color: #fff;
+    list-style: none;
+    width: 100px;
+    padding: 4px 8px;
+}
+
+.language-list {
+    padding-right: 0px;
+    padding: 4px;
+    width: 100%;
+}
+.language-list::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 80%;
+    height: 20px;
+    top: -20px;
+}
+
+.language-link {
+    text-decoration: none;
+    background-color: #fff;
+}
+.language-list:hover {
+    background-color: #77b4c3;
+}
+
+//------------------bells----------------
+.bell {
+    position: relative;
+}
+
+.nav-item-link:focus ~ .notication {
+    display: block;
+}
+
+.notication {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    right: -78px;
+    margin-right: 20px;
+    display: none;
+    top: 130%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    max-height: 200px;
+    padding-bottom: 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    z-index: 1;
+    animation: fadein ease-in-out 0.3s;
+}
+
+.notication-heading {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    margin: 12px 0 0 16px;
+    display: block;
+}
+
+.notication-infor {
+    font-size: 12px;
+    color: #ccc;
+    text-align: center;
+    display: block;
+    margin-left: 0;
+    padding: 30px 20px;
+}
+
+//-------User Interface ----------
+.user {
+    position: relative;
+}
+
+.user-select {
+    position: absolute;
+    width: 224px;
+    top: 14%;
+    border-radius: 4px;
+    background-color: #fff;
+    z-index: 100;
+    display: none;
+    right: 14px;
+    list-style: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    animation: fadein ease-out 0.3s;
+}
+
+.user-select.active {
+    display: block;
+}
+.uesr-name {
+    padding-top: 12px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding-left: 12px;
+    color: #000;
+    margin: 0;
+}
+
+.user-roll {
+    font-size: 1.2rem;
+    margin-top: 4px;
+    padding-left: 14px;
+    font-weight: 100;
+    color: #ccc;
+    display: block;
+}
+
+.border-style {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 12px 0;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.7);
+}
+
+.user-item {
+    list-style: none;
+    padding: 0;
+    padding-bottom: 12px;
+    background-color: #fff;
+}
+
+.user-list {
+    padding: 12px;
+}
+.user-list:hover {
+    background-color: rgb(207, 225, 225);
+    cursor: pointer;
+}
+
+.user-link {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 400;
+    display: block;
+    color: #000;
+}
+
+.user-icon {
+    padding-right: 12px;
+}

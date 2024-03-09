@@ -1,0 +1,153 @@
+.manager {
+    margin: 20px 40px 0 40px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-add {
+    width: auto;
+    height: 40px;
+    padding: 6px 12px;
+    border-radius: 14px;
+    text-decoration: none;
+    margin-right: 20px;
+    outline: none;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    background-color: rgb(119, 224, 224);
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+}
+
+.icon {
+    font-size: 16px;
+    padding: 0 6px;
+    color: #3a484c;
+}
+.btn-add:hover {
+    background-color: rgba(119, 224, 224, 0.8);
+}
+
+.table {
+    margin-top: 12px;
+    background-color: #fff;
+    height: 55vh;
+    border-radius: 8px;
+    overflow: auto;
+}
+.items {
+    padding: 12px 40px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: -50px;
+    text-align: center;
+}
+.lists {
+    width: 30%;
+    margin-left: 80px;
+}
+.lists:first-child {
+    margin-left: 30px;
+}
+.lists:nth-child(2) {
+    margin-left: 50px;
+}
+
+.item {
+    padding: 12px 40px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.lables {
+    text-align: left;
+
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+.list {
+    width: 17%;
+    cursor: pointer;
+}
+.list:first-child {
+    margin-left: -50px;
+}
+
+.infor_style {
+    text-decoration: none;
+}
+
+.lable {
+    text-align: left;
+    max-width: 180px;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+    font-weight: 500;
+}
+.border-style {
+    border: 1px solid #000;
+    margin-top: 4px;
+    margin: 0 4px;
+}
+.inputName {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 30px;
+    margin-top: 12px;
+    margin-left: 40%;
+    padding: 0 20px;
+    outline-color: rgb(195, 230, 224);
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    text-align: center;
+}
+.border-styles {
+    border: 1px solid #b2b2b2;
+    margin-top: 4px;
+    margin: 0 4px;
+}
+.btn-update {
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #3458db; /* Màu xanh dương cho nút Xác nhận */
+    color: #fff;
+}
+.btn-update:hover {
+    background-color: #2980b9;
+}
+.btn-delete {
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #e74c3c; /* Màu đỏ cho nút Hủy */
+    color: #fff;
+    margin-left: 10px;
+}
+.btn-delete:hover {
+    background-color: #c0392b;
+}

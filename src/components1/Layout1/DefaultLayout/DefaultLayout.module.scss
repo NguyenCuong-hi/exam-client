@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+}
+
+.content {
+    background-color: #fff;
+    width: calc(100% - 117px);
+    height: 82vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+}
+
+.wrapper-default {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #77b4c3;
+}

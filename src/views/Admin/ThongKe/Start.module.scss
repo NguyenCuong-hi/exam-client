@@ -1,0 +1,29 @@
+.Filter {
+    flex-direction: row;
+    display: flex;
+    margin-top: 12px;
+    // align-items: center;
+    justify-content: space-around;
+}
+
+.box {
+    width: 30%;
+    height: auto;
+}
+
+.label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn {
+    width: 180px;
+    margin-left: 50px;
+    margin-top: 26vh;
+    height: 80px;
+    background-color: rgba(152, 214, 214, 0.3);
+    border: 3px solid rgb(77, 184, 229);
+}

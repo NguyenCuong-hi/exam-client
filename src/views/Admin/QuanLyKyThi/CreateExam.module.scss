@@ -1,0 +1,76 @@
+.create-exam {
+    max-width: 400px;
+    margin: 40px auto; /* 40px là giá trị căn giữa trên và dưới */
+    position: relative;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ddd;
+    width: 400px;
+}
+
+.heading {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.exam-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-cancel,
+.btn-create {
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-cancel {
+    background-color: #e74c3c; /* Màu đỏ cho nút Hủy */
+    color: #fff;
+}
+
+.btn-create {
+    //margin-left: 60%;
+    background-color: #3498db; /* Màu xanh dương cho nút Xác nhận */
+    color: #fff;
+}
+
+.btn-cancel:hover {
+    background-color: #c0392b; /* Màu đỏ sáng khi hover */
+}
+
+.btn-create:hover {
+    background-color: #2980b9; /* Màu xanh dương sáng khi hover */
+}
+.exam-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

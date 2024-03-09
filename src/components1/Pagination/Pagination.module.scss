@@ -1,0 +1,43 @@
+/* Định dạng chung cho thanh phân trang */
+nav {
+    margin-top: 20px; /* Khoảng cách từ nội dung trang */
+}
+
+/* Định dạng danh sách ul */
+ul.pagination {
+    list-style-type: none; /* Loại bỏ kiểu danh sách */
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Canh giữa nội dung */
+}
+
+/* Định dạng mỗi mục trong danh sách */
+li.page-item {
+    margin: 0 5px; /* Khoảng cách giữa các mục */
+}
+
+/* Định dạng liên kết của mỗi mục */
+a.page-link {
+    display: block;
+    padding: 10px;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff; /* Màu chữ */
+    background-color: rgb(119, 180, 195); /* Màu nền */
+    border: 1px solid rgb(119, 180, 195); /* Viền */
+    border-radius: 5px; /* Góc bo tròn */
+    cursor: pointer;
+}
+
+/* Định dạng mục được chọn */
+li.page-item.active a.page-link {
+    background-color: #007bff; /* Màu nền khi mục được chọn */
+    color: rgb(119, 180, 195); /* Màu chữ khi mục được chọn */
+    border: 1px solid #007bff; /* Viền khi mục được chọn */
+}
+
+/* Định dạng mục Previous và Next */
+li.page-item a.page-link:hover {
+    background-color: #ddd; /* Màu nền khi di chuột qua */
+}

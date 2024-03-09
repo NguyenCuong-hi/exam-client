@@ -1,0 +1,70 @@
+.Table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.Table-col {
+}
+
+td {
+    height: 20px;
+    width: 30%;
+}
+.pain {
+    height: 200px;
+}
+
+.label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn {
+    width: 180px;
+    margin-left: 20%;
+    margin-top: 12vh;
+    height: 80px;
+    margin-bottom: 40px;
+    background-color: rgba(152, 214, 214, 0.3);
+    border: 3px solid rgb(77, 184, 229);
+}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+}
+.row-btn {
+    display: block;
+    width: 30%;
+}
+.type_btn {
+    width: 40px;
+    height: 50px;
+    border: none;
+    padding: 4px 0;
+    background-color: rgba(152, 214, 214, 0.3);
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+.labels {
+    display: block;
+    width: 60px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+}
+select {
+    float: right;
+    margin-top: 12px;
+    margin-right: 40px;
+    width: 80px;
+    height: 30px;
+}
+option {
+    font-size: 14px;
+    color: #000;
+}

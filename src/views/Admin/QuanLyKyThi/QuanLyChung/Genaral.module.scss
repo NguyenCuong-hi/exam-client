@@ -1,0 +1,31 @@
+.TabHeader {
+    display: flex;
+    align-items: center;
+    background-color: #e6e6e6;
+    justify-content: center;
+}
+
+.TabHItem {
+    margin: 4px 20px;
+    background-color: #efefef;
+    width: 140px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+.TabHeader .active {
+    background-color: #68b5b6;
+}
+.btnHeader {
+}
+
+.btn_link {
+    text-decoration: none;
+    color: #000;
+}

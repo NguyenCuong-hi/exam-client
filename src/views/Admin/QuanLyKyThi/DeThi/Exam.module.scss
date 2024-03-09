@@ -1,0 +1,125 @@
+.ExamList {
+    margin-top: 20px;
+}
+.toolBtn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.inputName {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 30px;
+    margin-right: 200px;
+    padding: 0 20px;
+    outline-color: rgb(195, 230, 224);
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btns {
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 20px;
+    color: #fff;
+    padding: 6px 20px;
+    background-color: rgb(110, 183, 206);
+    border-radius: 4px;
+    font-weight: 500;
+}
+.formList {
+    max-height: 40vh;
+    overflow-y: auto;
+}
+.botton {
+    background-color: rgb(142, 211, 186);
+    font-weight: 600;
+}
+.contentExam {
+    margin-top: 20px;
+}
+.heading {
+    margin-left: 50px;
+    font-size: 14px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formList {
+    margin-top: 20px;
+}
+.itemExam {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.listExam {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    width: 20%;
+    cursor: pointer;
+    margin-left: 20px;
+    color: #000;
+}
+.listExams:nth-child(4) {
+    margin-left: 120px;
+}
+.border {
+    border: 1px solid #bebdbd;
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+.btnList {
+    text-decoration: none;
+    margin-left: 8px;
+    padding: 4px 8px;
+    background-color: rgb(97, 203, 203);
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.itemExams {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: -0px;
+}
+.listExams {
+    margin-left: 90px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+.toolBtns {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+.listExam:nth-child(4) {
+    margin-left: 60px;
+    width: 10%;
+}
+
+.listExam:nth-child(1) {
+    margin-left: 60px;
+    width: 10%;
+}
+
+.listExam:nth-child(5) {
+    margin-left: 20px;
+    width: 25%;
+}

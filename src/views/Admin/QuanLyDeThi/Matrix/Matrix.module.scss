@@ -1,0 +1,136 @@
+.Matrix {
+    margin: 20px 12px 0 12px;
+}
+
+.flexBox {
+    display: flex;
+    margin-top: 4px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sideBar {
+    width: 10%;
+    height: 100%;
+}
+.border {
+    border: 1px solid #ccc;
+    width: 1px;
+    color: #ccc;
+    position: relative;
+    right: 0%;
+    height: 380px;
+}
+.container {
+    margin-left: 12px;
+    width: 90%;
+}
+.select {
+    padding: 8px 0;
+}
+.choose {
+    height: 30px;
+    width: 90%;
+    border: 1px solid #ccc;
+    padding: 0 6px;
+}
+.option {
+    height: 22px;
+    padding: 8px 6px;
+    margin-top: 8px;
+}
+
+.content {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lable {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.numbers {
+    margin-left: 10px;
+    height: 30px;
+    padding: 8px 6px;
+    font-size: 14px;
+    outline: none;
+}
+
+.selects {
+    margin-left: 10px;
+    height: 30px;
+    width: 120px;
+    border: 1px solid #ccc;
+    padding: 0 6px;
+}
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+.btnTool {
+    margin-right: 20px;
+    height: 30px;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(158, 228, 204);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.btnTool:hover {
+    background-color: rgba(158, 228, 204, 0.8);
+    cursor: pointer;
+}
+
+.infor {
+    margin: 20px 20px 0 90px;
+    overflow-y: auto;
+    max-height: 300px;
+}
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+.Table {
+    text-align: center;
+    width: 90%;
+    border-collapse: collapse;
+}
+.heading_title {
+    font-size: 16px;
+    font-weight: 600;
+    font: bold;
+    color: rgb(239, 141, 95);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 12px 12px;
+}
+.title {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    padding: 0 4px;
+    word-wrap: break-word;
+    text-align: center;
+}
+.input-num {
+    flex: 1;
+    padding: 8px 4px;
+    border: none;
+    text-align: center;
+    height: 46px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}

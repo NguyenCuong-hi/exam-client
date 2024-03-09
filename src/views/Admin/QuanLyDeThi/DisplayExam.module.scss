@@ -1,0 +1,76 @@
+.manager {
+    margin: 20px 40px 0 40px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.manager-btn {
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.btn-add {
+    width: auto;
+    height: 40px;
+    padding: 6px 12px;
+    border-radius: 14px;
+    margin-right: 20px;
+    outline: none;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    background-color: rgb(119, 224, 224);
+    cursor: pointer;
+    border: none;
+}
+
+.icon {
+    font-size: 16px;
+    padding: 0 6px;
+    color: #3a484c;
+}
+.btn-add:hover {
+    background-color: rgba(119, 224, 224, 0.8);
+}
+
+.table {
+    margin-top: 100px;
+    background-color: antiquewhite;
+    height: 280px;
+    border-radius: 8px;
+    overflow-y: auto;
+}
+
+.item {
+    padding: 12px 40px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.list {
+}
+
+.center {
+    margin-left: 90px;
+}
+.centerX {
+    margin-right: 100px;
+}
+
+.lable {
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+.border-style {
+    border: 1px solid #000;
+    margin-top: 4px;
+    margin: 0 4px;
+}

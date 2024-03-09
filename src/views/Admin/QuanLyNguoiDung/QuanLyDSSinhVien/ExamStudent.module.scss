@@ -1,0 +1,456 @@
+//Màn hình Thêm
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    display: none;
+}
+
+.popup.active {
+    display: block;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.popup h2 {
+    margin-bottom: 10px;
+}
+//Overlay
+//CSS overlay
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Màu nền tối */
+    z-index: 1;
+  }
+  .selectedImage {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+//EditList
+ 
+.editList {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+  
+}
+ 
+  .editList h2{
+    display: flex;
+    margin-bottom: 20px;
+  
+    align-items: center;
+    justify-content: center;
+  }
+  .editList input{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 20px;
+  }
+//AddList
+ 
+.addList {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+ 
+  .addList h2{
+    display: flex;
+    margin-bottom: 20px;
+  
+    align-items: center;
+    justify-content: center;
+  }
+  .addList input{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+//
+.button-group {
+    display: flex;
+    gap: 150px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.btnSave,
+.btnCancel {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btnSave {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.btnCancel {
+    background-color: #f44336;
+    color: #fff;
+}
+
+
+//Màn hình sửa
+/* CSS cho màn hình sửa thông tin phòng thi */
+.edit-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    display: none;
+}
+
+.edit-form.active {
+    display: block;
+}
+
+.edit-form h2 {
+    margin-bottom: 10px;
+}
+
+.edit-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.edit-form .button-group {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.edit-form .btnSave {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+}
+
+
+//
+
+.Addfile {
+    margin: 20px 0 0 0;
+}
+.flexBox {
+    margin-top: -20px;
+}
+
+.sideBar {
+    height:40px ;
+    width: 100%;
+    background-color: rgba(204,204,204,0.7);
+
+}
+.topic{
+    display: flex;
+    align-items: center;
+}
+
+.btnTopic {
+    margin-left: 100px;
+    outline: none;
+    width: 150px;
+    margin-top: 4px;
+    border: none;
+    border: 1px solid #ccc;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    padding: 8px 12px;
+    text-align: center;
+    padding-bottom: 6px;
+    background-color: rgb(206, 222, 222);
+}
+
+
+.active {
+
+    outline: none;
+    border: none;
+    border: 1px solid #ccc;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 6px;
+    display: block;
+    background-color: rgb(235, 211, 181);
+}
+
+.btnTopic:hover {
+    background-color: rgba(206, 214, 214, 0.8);
+    cursor: pointer;
+}
+.border {
+    border: 1px solid #ccc;
+    width: 1px;
+    color: #ccc;
+    position: relative;
+    right: 0%;
+    height: 380px;
+}
+
+.container {
+  
+}
+
+.tools {
+
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-around;
+    margin-top: 12px;
+}
+.btnTool {
+    height: 30px;
+    border: none;
+    margin-right: 20px;
+    padding: 0 30px;
+    outline: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(161, 241, 241);
+    border-radius: 4px;
+    text-align: center;
+}
+.btnTool:hover {
+    background-color: rgba(161, 241, 241, 0.8);
+    cursor: pointer;
+}
+
+.borders {
+    border: 1px solid #ccc;
+    margin-top: 8px;
+}
+
+.quetion {
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.lable {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inforText {
+    width: 89%;
+    margin-left: 10px;
+    padding: 8px 0;
+    border: 1px solid #ccc;
+    padding-left: 6px;
+    font-size: 14px;
+    color: #000;
+    outline: none;
+    border-radius: 4px;
+}
+.Answer {
+    margin-top: 8px;
+    margin-left: 12px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+.btnAnswer {
+    font-size: 14px;
+}
+.chooseAnswer {
+    font-size: 14px;
+    margin-left: 4px;
+    padding: 4px 6px;
+    border: 1px solid #ccc;
+    background-color: rgb(195, 230, 224);
+}
+.infor {
+    width: 90%;
+    margin-left: 10px;
+    padding: 8px 0;
+    border: 1px solid #ccc;
+    padding-left: 6px;
+    font-size: 14px;
+    color: #000;
+    outline: none;
+    border-radius: 4px;
+}
+
+.select {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 6px;
+}
+
+.AnswerLabel {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+.AnswerTrue {
+    font-size: 14px;
+    margin-left: 4px;
+    padding: 4px 6px;
+    border: 1px solid #ccc;
+    background-color: rgb(195, 230, 224);
+}
+.table {
+    margin: 12px;
+    background-color: #fff;
+    height: 65vh;
+    border-radius: 8px;
+    overflow-y: auto;
+}
+
+.item {
+    padding: 12px 40px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.list {
+    max-width: 150px;
+}
+.center {
+    margin-left: 50px;
+}
+.lable {
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+.border-style {
+    border: 1px solid #000;
+    margin-top: 4px;
+    margin: 0 4px;
+}
+.listbtn {
+    height: 20px;
+    padding: 2px 18px;
+    text-align: center;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+.inputName {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 30px;
+    margin-right: 150px;
+    padding: 0 20px;
+    outline-color: rgb(195, 230, 224);
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+.active:hover {
+    cursor: pointer;
+}
+.border-styles {
+    border: 1px solid #9c9c9c;
+    margin-top: 4px;
+    margin: 0 4px;
+}
+.lables {
+    text-align: center;
+    font-size: 14px;
+    color: #4a4747;
+    font-weight: 500;
+}
+.link{
+    text-decoration: none;
+}
+.btnEdit{
+    height: 28px ;
+    padding: 2px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color :rgb(111, 172, 172);
+    border: none;
+    outline: none;
+}
+.btnEdit:hover{
+    color: #fff;
+}

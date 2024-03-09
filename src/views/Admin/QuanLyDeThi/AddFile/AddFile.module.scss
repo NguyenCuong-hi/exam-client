@@ -1,0 +1,197 @@
+.Addfile {
+    margin: 20px 12px 0 12px;
+}
+.flexBox {
+    display: flex;
+    margin-top: 4px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sideBar {
+    width: 10%;
+    height: 100%;
+}
+
+.topic {
+}
+
+.btnTopic {
+    width: 90%;
+
+    outline: none;
+    border: none;
+    border: 1px solid #ccc;
+    margin-top: 12px;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px 0 0 6px;
+    text-align: center;
+    padding-bottom: 6px;
+    display: block;
+    background-color: rgb(172, 225, 225);
+}
+
+.btnTopic:hover {
+    background-color: rgba(172, 225, 225, 0.8);
+    cursor: pointer;
+}
+.border {
+    border: 1px solid #ccc;
+    width: 1px;
+    color: #ccc;
+    position: relative;
+    right: 0%;
+    height: 380px;
+}
+
+.container {
+    margin-left: 12px;
+    width: 90%;
+}
+
+.tools {
+    float: right;
+    display: flex;
+    margin-right: 80px;
+}
+.btnTool {
+    height: 30px;
+    border: none;
+    margin-right: 20px;
+    padding: 0 40px;
+    outline: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(161, 241, 241);
+    border-radius: 4px;
+    text-align: center;
+}
+.btnTool:hover {
+    background-color: rgba(161, 241, 241, 0.8);
+    cursor: pointer;
+}
+
+.main {
+    max-height: 300px;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.Main-ex {
+    margin: 0 12px;
+    width: calc(100% / 2.2);
+    margin-top: 20px;
+    background-color: rgb(231, 236, 235);
+    padding: 4px;
+    padding-top: 6px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.item {
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 4px 8px;
+    background-color: rgb(178, 214, 202);
+}
+.item:hover {
+    background-color: rgba(178, 214, 202, 0.8);
+    cursor: pointer;
+}
+.borders {
+    border: 1px solid #ccc;
+    margin-top: 8px;
+}
+
+.quetion {
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.lable {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inforText {
+    width: 89%;
+    margin-left: 10px;
+    padding: 8px 0;
+    border: 1px solid #ccc;
+    padding-left: 6px;
+    font-size: 14px;
+    color: #000;
+    outline: none;
+    border-radius: 4px;
+}
+.Answer {
+    margin-top: 8px;
+    margin-left: 12px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+.btnAnswer {
+    font-size: 14px;
+}
+.chooseAnswer {
+    font-size: 14px;
+    margin-left: 4px;
+    padding: 4px 6px;
+    border: 1px solid #ccc;
+    background-color: rgb(195, 230, 224);
+}
+.infor {
+    width: 90%;
+    margin-left: 10px;
+    padding: 8px 0;
+    border: 1px solid #ccc;
+    padding-left: 6px;
+    font-size: 14px;
+    color: #000;
+    outline: none;
+    border-radius: 4px;
+}
+
+.select {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 6px;
+}
+
+.AnswerLabel {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+.AnswerTrue {
+    font-size: 14px;
+    margin-left: 4px;
+    padding: 4px 6px;
+    border: 1px solid #ccc;
+    background-color: rgb(195, 230, 224);
+}

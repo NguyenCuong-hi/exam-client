@@ -1,0 +1,65 @@
+.overLay {
+    width: 100%;
+}
+
+.Update {
+    margin: 0 auto;
+    margin-top: 40px;
+
+    width: 300px;
+    height: 250px;
+    background-color: #9accd6;
+    border-radius: 4px;
+}
+.heading {
+    font-size: 16px;
+    font-weight: 500;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    top: 4px;
+    margin-left: 20%;
+}
+.formInputs {
+    margin-top: 100px;
+    margin: 0 12px;
+}
+.formInput {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+}
+.lable {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90px;
+}
+.input {
+    flex: 1;
+    margin-left: 4px;
+    height: 24px;
+    padding: 2px 6px;
+    border: none;
+    outline-color: azure;
+    border-radius: 3px;
+    color: #000;
+    font-size: 12px;
+}
+
+.toolBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.btns {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: rgb(165, 110, 110);
+    padding: 6px 12px;
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
